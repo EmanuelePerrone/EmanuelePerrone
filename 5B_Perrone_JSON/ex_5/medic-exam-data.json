@@ -1,0 +1,37 @@
+[
+    {
+      "patient": {
+        "first_name": "John",
+        "last_name": "Doe"
+      },
+      "timestamp": "2025-02-06T08:00:00Z",
+      "test_type": "Blood Glucose",
+      "result": {
+        "value": 95,
+        "unit": "mg/dL",
+        "reference_range": {
+          "min": 70,
+          "max": 100
+        },
+        "status": "ok"
+      }
+    },
+    {
+      "patient": {
+        "first_name": "Alice",
+        "last_name": "Smith"
+      },
+      "timestamp": "2025-02-06T09:30:00Z",
+      "test_type": "Cholesterol",
+      "result": {
+        "value": 220,
+        "unit": "mg/dL",
+        "reference_range": {
+          "min": 125,
+          "max": 200
+        },
+        "status": "high value"
+      }
+    }
+  ]
+  

@@ -1,0 +1,38 @@
+[
+    {
+      "location": {
+        "city": "Milano",
+        "state": "Italia"
+      },
+      "timestamp": "2025-02-01T10:30:00Z"
+    },
+    {
+      "location": {
+        "city": "Lione",
+        "state": "Francia"
+      },
+      "timestamp": "2025-02-02T15:45:00Z"
+    },
+    {
+      "location": {
+        "city": "Madrid",
+        "state": "Spagna"
+      },
+      "timestamp": "2025-02-03T08:00:00Z"
+    },
+    {
+      "location": {
+        "city": "Lisboa",
+        "state": "Portogallo"
+      },
+      "timestamp": "2025-02-04T18:20:00Z"
+    },
+    {
+      "location": {
+        "city": "Roma",
+        "state": "Italia"
+      },
+      "timestamp": "2025-02-05T09:00:00Z"
+    }
+  ]
+  

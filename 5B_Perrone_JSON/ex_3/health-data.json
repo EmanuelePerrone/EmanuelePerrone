@@ -1,0 +1,33 @@
+[
+    {
+      "timestamp": "2025-02-01T08:00:00Z",
+      "measurement_type": "pressure",
+      "value": 120
+    },
+    {
+      "timestamp": "2025-02-01T08:15:00Z",
+      "measurement_type": "heart_rate",
+      "value": 75
+    },
+    {
+      "timestamp": "2025-02-01T09:00:00Z",
+      "measurement_type": "glucose",
+      "value": 95
+    },
+    {
+      "timestamp": "2025-02-01T10:00:00Z",
+      "measurement_type": "pressure",
+      "value": 130
+    },
+    {
+      "timestamp": "2025-02-01T11:00:00Z",
+      "measurement_type": "temperature",
+      "value": 36.7
+    },
+    {
+      "timestamp": "2025-02-01T12:00:00Z",
+      "measurement_type": "weight",
+      "value": 70.5
+    }
+]
+  

@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "measurement_type": {
+      "type": "string",
+      "enum": ["pressure", "heart_rate", "glucose", "temperature", "weight"]
+    },
+    "value": {
+      "type": "number"
+    }
+  },
+  "required": ["timestamp", "measurement_type", "value"],
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+[
+    {
+      "timestamp": "2025-02-06T10:30:00Z",
+      "temperature": 15.3,
+      "humidity": 80,
+      "pressure": 1012.5,
+      "wind": {
+        "speed": 12.5,
+        "unit": "km/h",
+        "direction": "NE"
+      },
+      "rainfall": 0.0
+    },
+    {
+      "timestamp": "2025-02-06T11:00:00Z",
+      "temperature": 16.1,
+      "humidity": 75,
+      "pressure": 1011.8,
+      "wind": {
+        "speed": 8.2,
+        "unit": "m/s",
+        "direction": "W"
+      },
+      "rainfall": 2.3
+    }
+  ]
+  

@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Date and time of the measurement in ISO 8601 format"
+        },
+        "temperature": {
+          "type": "number",
+          "description": "Temperature in degrees Celsius"
+        },
+        "humidity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Relative humidity in percentage"
+        },
+        "pressure": {
+          "type": "number",
+          "description": "Atmospheric pressure in hPa"
+        },
+        "wind": {
+          "type": "object",
+          "properties": {
+            "speed": {
+              "type": "number",
+              "description": "Wind speed"
+            },
+            "unit": {
+              "type": "string",
+              "enum": ["m/s", "km/h"],
+              "description": "Unit of wind speed"
+            },
+            "direction": {
+              "type": "string",
+              "description": "Wind direction (e.g., N, NE, E, SE, S, SW, W, NW)"
+            }
+          },
+          "required": ["speed", "unit", "direction"]
+        },
+        "rainfall": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Amount of rainfall in mm"
+        }
+      },
+      "required": ["timestamp", "temperature", "humidity", "pressure", "wind", "rainfall"]
+    }
+  }
+  

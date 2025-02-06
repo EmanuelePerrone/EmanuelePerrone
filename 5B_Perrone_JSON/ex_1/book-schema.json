@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "genre": {
+      "type": "string",
+      "minLength": 1
+    },
+    "isbn": {
+      "type": "string",
+      "pattern": "^(97(8|9))?\\d{9}(\\d|X)$"
+    },
+    "year_of_publication": {
+      "type": "integer",
+      "minimum": 1000,
+      "maximum": 9999
+    },
+    "pages": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "language": {
+      "type": "string",
+      "enum": ["it", "en", "fr", "es", "de"]
+    }
+  },
+  "required": ["title", "authors", "genre", "isbn", "year_of_publication", "pages", "language"],
+  "additionalProperties": false
+}

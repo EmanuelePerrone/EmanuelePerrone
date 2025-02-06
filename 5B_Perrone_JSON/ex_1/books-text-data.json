@@ -1,0 +1,48 @@
+[
+    {
+      "title": "Il nome della rosa",
+      "authors": ["Umberto Eco"],
+      "genre": "Mistero",
+      "isbn": "9788804370117",
+      "year_of_publication": 1980,
+      "pages": 502,
+      "language": "it"
+    },
+    {
+      "title": "1984",
+      "authors": ["George Orwell"],
+      "genre": "Dystopia",
+      "isbn": "9780451524935",
+      "year_of_publication": 1949,
+      "pages": 328,
+      "language": "en"
+    },
+    {
+      "title": "Le Miserable",
+      "authors": ["Victor Hugo"],
+      "genre": "Historical Fiction",
+      "isbn": "9780199555353",
+      "year_of_publication": 1862,
+      "pages": 1232,
+      "language": "fr"
+    },
+    {
+      "title": "Cien años de soledad",
+      "authors": ["Gabriel García Márquez"],
+      "genre": "Magical realism",
+      "isbn": "9780060883287",
+      "year_of_publication": 1967,
+      "pages": 417,
+      "language": "es"
+    },
+    {
+      "title": "Der Steppenwolf",
+      "authors": ["Hermann Hesse"],
+      "genre": "Philosophical fiction",
+      "isbn": "9780316785554",
+      "year_of_publication": 1927,
+      "pages": 300,
+      "language": "de"
+    }
+  ]
+  

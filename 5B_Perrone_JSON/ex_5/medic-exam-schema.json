@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "patient": {
+        "type": "object",
+        "properties": {
+          "first_name": { "type": "string" },
+          "last_name": { "type": "string" }
+        },
+        "required": ["first_name", "last_name"]
+      },
+      "timestamp": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Date and time of the test in ISO 8601 format"
+      },
+      "test_type": {
+        "type": "string",
+        "description": "Type of medical test performed"
+      },
+      "result": {
+        "type": "object",
+        "properties": {
+          "value": { "type": "number" },
+          "unit": { "type": "string" },
+          "reference_range": {
+            "type": "object",
+            "properties": {
+              "min": { "type": "number" },
+              "max": { "type": "number" }
+            },
+            "required": ["min", "max"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["ok", "too low", "high value"],
+            "description": "Evaluation of the test result based on reference range"
+          }
+        },
+        "required": ["value", "unit", "reference_range", "status"]
+      }
+    },
+    "required": ["patient", "timestamp", "test_type", "result"]
+  }
+}
